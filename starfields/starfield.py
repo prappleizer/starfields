@@ -255,7 +255,7 @@ def gaussian_stamp_subpixel(
     fwhm_y: float,
     dx: float,
     dy: float,
-    oversample: int = 4,
+    oversample: int = 8,
     stamp_size: int = 15,
 ):
     """Helper function to create cutout stamps of gaussian stars
@@ -273,7 +273,7 @@ def gaussian_stamp_subpixel(
     dy : float
         offset from center of patch in y
     oversample : int, optional
-        over sample grid to compute gaussian on before binning to image pixels, by default 4
+        over sample grid to compute gaussian on before binning to image pixels, by default 8
     stamp_size : int, optional
         size of stamp grid, should be several times the chosen fwhm, by default 15
 
