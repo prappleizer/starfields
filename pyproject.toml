@@ -1,0 +1,18 @@
+[project]
+name = "starfields"
+version = "0.1.0"
+description = "Simulate realistic stellar fields using Gaia and generate synthetic telescope images."
+authors = [{name = "Imad Pasha", email = "imad.pasha@dragonfly1000.com"}]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "astropy",
+    "astroquery"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
