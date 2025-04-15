@@ -46,7 +46,7 @@ class Starfield:
         ra: float, optional
             ra center of field; if not provided, a random one will be chosen, by default None
         dec: float, optional
-            dec center of field; if not provided, a random one will be chosen, by default None
+            dec center of field; if not provided, a random one will be chosen. Note that valid dec is -30 to 80, by default None
         theta_deg: float, optional
             field rotation in degrees, by default 0.0
         fov_radius: float, optional
